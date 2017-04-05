@@ -1,0 +1,24 @@
+body {
+  font-family: Roman;
+  background: #e1e1e1;
+  color: blue;
+  
+}
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: line-through;
+}
+a:active {
+  text-decoration: none;
+  color: green;
+}
+#depression {
+  font-size: 180px;
+}
+  
