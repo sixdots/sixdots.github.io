@@ -1,25 +1,52 @@
 body {
-  font-family: Roman;
-  background: #e1e1e1;
-  color: blue;
-  
+    background-image:url(http://sixdots.github.io/images/bg-grey.pngd);
+  background-repeat:repeat;
+  font-family: Microsoft-Yahei;
+  font-size: 30px;
+  margin: 80px 0px 0px 100px;
+}
+a {
+  color: 
+    #00ff00;
 }
 a:link {
-  text-decoration: none;
-  color: blue;
-}
+  color: #00ff00;
+  text-decoration:none;
+}		/* 未被访问的链接 */
 a:visited {
-  text-decoration: none;
-}
+  color: #00ff00;
+}	/* 已被访问的链接 */
 a:hover {
-  text-decoration: line-through;
-}
-a:active {
+  color: blue;
   text-decoration: none;
-  color: green;
-}
-#depression {
-  font-size: 180px;
-  text-align: center;
-}
+  font-weight: bold;
+  font-size: 20px;
+}	/* 鼠标指针移动到链接上 */
+a:active {
+  color:#0000FF;
+  text-decoration: none;
+}	
+.navigation {
+  color: #ff5252;
+  font-weight: bold;
+  font-size: 12px;
   
+}
+img {
+  position: absolute;
+  right:0px;
+}
+#draw{
+  position: absolute;
+  top: 30px;
+  right:40px;
+}
+div
+{
+transform:rotate(7deg);
+-ms-transform:rotate(7deg); 	/* IE 9 */
+-moz-transform:rotate(7deg); 	/* Firefox */
+-webkit-transform:rotate(7deg); /* Safari 和 Chrome */
+-o-transform:rotate(7deg); 	/* Opera */
+  
+}
