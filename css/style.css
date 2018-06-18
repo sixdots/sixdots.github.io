@@ -5,6 +5,9 @@ body {
   margin-top: 40px;
   font-family: "Arial";
 }
+#intro {
+  font-size: 7px;
+}
 
 div img{
  cursor: pointer;
